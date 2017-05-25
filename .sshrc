@@ -1,7 +1,7 @@
 export VIMINIT="let \$MYVIMRC='$SSHHOME/.sshrc.d/.vimrc' | source \$MYVIMRC"
 
 # linux commands
-source .linuxrc
+source $SSHHOME/.sshrc.d/.linuxrc
 
 # data science commands
-source .secure_data_sciencerc
+source $SSHHOME/.sshrc.d/.secure_data_sciencerc
