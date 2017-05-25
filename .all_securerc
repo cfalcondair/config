@@ -1,0 +1,2 @@
+# load all secure rc files
+source .secure*rc

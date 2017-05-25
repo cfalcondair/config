@@ -1,0 +1,2 @@
+# linux commands
+alias lmad="man -w --regex .* | grep .gz | sed 's|.*/man/man./||' | sed 's/\.gz$//' | sed 's/\.[0-9]$//' | xargs shuf -n1 -e | xargs man"
