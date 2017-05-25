@@ -15,3 +15,6 @@ alias infra="development; cd infra"
 alias pds="code; cd data_science/python"
 alias ss="/System/Library/Frameworks/ScreenSaver.framework/Resources/ScreenSaverEngine.app/Contents/MacOS/ScreenSaverEngine -background &"
 alias self="documents; cd self"
+
+# load other rc files
+source ~/.configs/.all_securerc
