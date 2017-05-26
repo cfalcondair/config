@@ -1,3 +1,6 @@
+# any files that are saved in ~/.sshrc.d/ will be temporarily saved 
+# in the ssh user's dir on the remote server which you need to then
+# load into your shell session. That's what is being done here.
 export VIMINIT="let \$MYVIMRC='$SSHHOME/.sshrc.d/.vimrc' | source \$MYVIMRC"
 
 # linux commands
