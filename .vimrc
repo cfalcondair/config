@@ -14,20 +14,18 @@ call vundle#begin()
 "call vundle#begin('~/some/path/here')
 
 " let Vundle manage Vundle, required
+Plugin 'gmarik/Vundle.vim'
+
+" Add all your plugins here (note older versions of Vundle used Bundle instead of Plugin)
 Plugin 'christoomey/vim-tmux-navigator'
 Plugin 'kien/ctrlp.vim'
 Plugin 'scrooloose/nerdtree'
-Plugin 'gmarik/Vundle.vim'
 Plugin 'vim-scripts/indentpython.vim'
 Plugin 'davidhalter/jedi-vim'
 Plugin 'nvie/vim-flake8'
 Plugin 'scrooloose/syntastic'
 
-
-" Add all your plugins here (note older versions of Vundle used Bundle instead of Plugin)
-
-
-" All of your Plugins must be added before the following line
+All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
 
@@ -49,12 +47,6 @@ set autoindent
 
 " expand tabs into spaces
 set expandtab
-
-" when using the >> or << commands, shift lines by 4 spaces
-set shiftwidth=4
-
-" show a visual line under the cursor's current line
-set cursorline
 
 " show the matching part of the pair for [] {} and ()
 set showmatch
