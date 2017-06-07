@@ -16,6 +16,7 @@ alias infra="development; cd infra"
 # Languages
 alias cdpython="code; cd python"
 alias cdruby="code; cd ruby"
+alias cdrails="code; cd rails"
 
 # Language Access
 alias play_py="cdpython; cd play; python"
