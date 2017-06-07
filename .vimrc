@@ -62,22 +62,26 @@ nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
 au BufNewFile,BufRead *.py
-    \ set tabstop=4
-    \ set softtabstop=4
-    \ set shiftwidth=4
-    \ set textwidth=79
-    \ set expandtab
-    \ set autoindent
+    \ set tabstop=4 |
+    \ set softtabstop=4 |
+    \ set shiftwidth=4 |
+    \ set textwidth=79 |
+    \ set expandtab |
+    \ set autoindent |
     \ set fileformat=unix
 
 au BufNewFile,BufRead *.js, *.rb, *.html, *.css
-    \ set tabstop=2
-    \ set softtabstop=2
+    \ set tabstop=2 |
+    \ set softtabstop=2 |
     \ set shiftwidth=2
 
 " Remove ANSI color escape codes for the edited file. This is handy when
 " " piping colored text into Vim.
 nnoremap <Leader>rac :%s/<C-v><Esc>\[\(\d\{1,2}\(;\d\{1,2}\)\{0,2\}\)\?[m\|K]//g<CR>
+
+" insert a new line whilst staying in normal mode
+nmap <S-Enter> O<Esc>
+nmap <CR> o<Esc>
 
 " Turn off arrow keys
 noremap <Up> <nop>
