@@ -5,6 +5,7 @@ export TERM=xterm-color
 export GREP_OPTIONS='--color=auto' GREP_COLOR='1;32'
 export CLICOLOR=1
 export LSCOLORS=ExFxCxDxBxegedabagacad
+export SCALA_VERSION="2.12.1-8-jre"
 
 # Code versions
 export CURRENT_RUBY_VERSION="2.4.1"
@@ -54,6 +55,9 @@ alias fuck='sudo $(history -p \!\!)'
 alias ss="/System/Library/Frameworks/ScreenSaver.framework/Resources/ScreenSaverEngine.app/Contents/MacOS/ScreenSaverEngine -background &"
 alias b="vim ~/.configs/.bashrc"
 alias pt="ping google.com"
+
+# Environment variables
+export INFRA_PATH="~/Documents/development/infra"
 
 # load other rc files
 source ~/.configs/.all_securerc
