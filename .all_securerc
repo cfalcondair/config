@@ -1,4 +1,4 @@
 # load all secure rc files
-source ~/.configs/.secure_autorc
-source ~/.configs/.secure_data_sciencerc
-source ~/.configs/.secure_sshrc
+source ~/.dotfiles/.secure_autorc
+source ~/.dotfiles/.secure_data_sciencerc
+source ~/.dotfiles/.secure_sshrc
