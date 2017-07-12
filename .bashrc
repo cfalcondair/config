@@ -53,12 +53,14 @@ alias s="sublime ."
 # Aliases Other
 alias fuck='sudo $(history -p \!\!)'
 alias ss="/System/Library/Frameworks/ScreenSaver.framework/Resources/ScreenSaverEngine.app/Contents/MacOS/ScreenSaverEngine -background &"
-alias b="vim ~/.configs/.bashrc"
+alias b="vim ~/.dotfiles/.bashrc"
 alias pt="ping google.com"
 
 # Environment variables
 export INFRA_PATH="~/Documents/development/infra"
 
 # load other rc files
-source ~/.configs/.all_securerc
+[[ -f ~/.dotfiles/.all_securerc ]] && source ~/.dotfiles/.all_securerc
+[[ -f ~/.all_securerc ]] && source ~/.all_securerc
+
 
