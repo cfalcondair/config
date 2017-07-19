@@ -23,6 +23,7 @@ alias cdpython="code; cd python"
 alias cdruby="code; cd ruby"
 alias cdrails="code; cd rails"
 alias cdsh="code; cd sh"
+alias cdsc="code; cd scala"
 
 # Infra Directories
 alias cdvm="infra; cd vm-jessie"
