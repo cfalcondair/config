@@ -42,7 +42,7 @@ alias euler="code_p; cd euler"
 alias bandit="code_p; cd war_games; cd bandit"
 
 # Current project Directory
-alias c="code; cd wikivoyage_search/query"
+alias c="cdsc; cd bid_management"
 
 # VM
 alias vm="cdvm; vagrant up; vagrant ssh"
