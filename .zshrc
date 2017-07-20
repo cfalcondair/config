@@ -10,7 +10,7 @@ export ZSH=/Users/$USER/.oh-my-zsh
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="random"
-#Standouts =(amuse tjkirch_mod sonicradish terminalparty miloshadzic fishy)
+#Standouts =(amuse tjkirch_mod sonicradish terminalparty miloshadzic fishy jbergantine kolo)
 
 # Initialize Z
 . `brew --prefix`/etc/profile.d/z.sh
