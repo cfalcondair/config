@@ -50,9 +50,6 @@ alias dcp="pwd | pbcopy"
 # Networking
 alias dip="curl -s https://iplocation.com/ | grep -E '<b class=\"ip\">|<span class=\"region_name\">|<span class=\"country_name\">' | cut -d '>' -f 3 | cut -d '<' -f 1"
 
-# Load data science
-alias sd="docker run -it -v `pwd`:/notebooks -p 8888:8888  tensorflow/tensorflow:nightly-py3 bash"
-
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
 
