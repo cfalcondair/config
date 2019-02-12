@@ -41,9 +41,7 @@ alias ss="/System/Library/Frameworks/ScreenSaver.framework/Resources/ScreenSaver
 alias b="vim ~/.dotfiles/.bashrc"
 alias pt="ping google.com"
 alias ll="ls -l"
-
-# Environment variables
-export INFRA_PATH="~/Documents/development/infra"
+alias dcp="pwd | pbcopy"
 
 # load other rc files
 [[ -f ~/.dotfiles/.all_securerc ]] && source ~/.dotfiles/.all_securerc
