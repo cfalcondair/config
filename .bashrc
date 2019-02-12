@@ -59,8 +59,10 @@ export PATH=$PATH:/Users/samsonite/Library/Python/3.6/bin/
 # Load go path
 export GOPATH=$(go env GOPATH)
 export PATH=$PATH:$(go env GOPATH)/bin
+alias cdgo='cd $GOPATH/src/github.com/cfalcondair/'
 
 # Start steam
 alias w_steam='cd ~/Documents/wasting_time/games/windows & wine start SteamSetup.exe'
 
-alias cdgo='cd $GOPATH/src/github.com/cfalcondair/'
+# Infra
+alias tf="terraform"
