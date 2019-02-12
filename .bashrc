@@ -30,20 +30,10 @@ alias play_py="cdpython; cd play; docker run -it python:$CURRENT_PYTHON_VERSION"
 alias play_r="cdruby; cd play; docker run -it ruby:$CURRENT_RUBY_VERSION"
 
 # Alias Project Directories
-alias pythonds="cdpython; cd data_science"
-alias code_p="cdruby; cd coding_problems"
-alias euler="code_p; cd euler"
-alias bandit="code_p; cd war_games; cd bandit"
-
-# Current project Directory
-alias c="cdsc; cd bid_management"
-
-# VM
-alias vm="cdvm; vagrant up; vagrant ssh"
-alias vm_reboot="cdvm; vagrant destroy --force; vm"
-
-# Alias Programs
-alias s="sublime ."
+alias cdsocialgood="cdgo; cd go-burst"
+alias cdds="code; cd data_science/kaggle/russian_future_sales"
+alias cdgoproject="cd $GOPATH; cd src/github.com/ipfs/"
+alias cdwebsite="code; cd side_projects/portfolio_site"
 
 # Aliases Other
 alias fuck='sudo $(history -p \!\!)'
