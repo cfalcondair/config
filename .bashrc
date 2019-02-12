@@ -25,12 +25,6 @@ alias cdrails="code; cd rails"
 alias cdsh="code; cd sh"
 alias cdsc="code; cd scala"
 
-# Infra Directories
-alias cdvm="infra; cd vm-jessie"
-
-# Networking
-alias ssh_config="sudo vim ~/.ssh/config"
-
 # Code Access
 alias play_py="cdpython; cd play; docker run -it python:$CURRENT_PYTHON_VERSION"
 alias play_r="cdruby; cd play; docker run -it ruby:$CURRENT_RUBY_VERSION"
