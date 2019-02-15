@@ -29,12 +29,6 @@ alias cdsc="code; cd scala"
 alias play_py="cdpython; cd play; docker run -it python:$CURRENT_PYTHON_VERSION"
 alias play_r="cdruby; cd play; docker run -it ruby:$CURRENT_RUBY_VERSION"
 
-# Alias Project Directories
-alias cdsocialgood="cdgo; cd go-burst"
-alias cdds="code; cd data_science/kaggle/russian_future_sales"
-alias cdgoproject="cd $GOPATH; cd src/github.com/ipfs/"
-alias cdwebsite="code; cd side_projects/portfolio_site"
-
 # Aliases Other
 alias fuck='sudo $(history -p \!\!)'
 alias ss="/System/Library/Frameworks/ScreenSaver.framework/Resources/ScreenSaverEngine.app/Contents/MacOS/ScreenSaverEngine -background &"
@@ -66,3 +60,10 @@ alias w_steam='cd ~/Documents/wasting_time/games/windows & wine start SteamSetup
 
 # Infra
 alias tf="terraform"
+
+# Alias Project Directories
+alias cdsocialgood="cdgo; cd go-burst"
+alias cdds="code; cd data_science/kaggle/russian_future_sales"
+alias cdgoproject="cd $GOPATH; cd src/github.com/ipfs/"
+alias cdwebsite="code; cd side_projects/portfolio_site"
+
