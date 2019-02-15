@@ -35,7 +35,7 @@ alias ss="/System/Library/Frameworks/ScreenSaver.framework/Resources/ScreenSaver
 alias b="vim ~/.dotfiles/.bashrc"
 alias pt="ping google.com"
 alias ll="ls -l"
-alias dcp="pwd | pbcopy"
+alias cpd="pwd | tr -d \"\n\" | pbcopy"
 
 # load other rc files
 [[ -f ~/.dotfiles/.all_securerc ]] && source ~/.dotfiles/.all_securerc
