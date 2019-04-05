@@ -30,12 +30,12 @@ alias play_py="cdpython; cd play; docker run -it python:$CURRENT_PYTHON_VERSION"
 alias play_r="cdruby; cd play; docker run -it ruby:$CURRENT_RUBY_VERSION"
 
 # Aliases Other
+alias pbc="tr -d \"\n\" | pbcopy"
 alias fuck='sudo $(history -p \!\!)'
 alias ss="/System/Library/Frameworks/ScreenSaver.framework/Resources/ScreenSaverEngine.app/Contents/MacOS/ScreenSaverEngine -background &"
 alias b="vim ~/.dotfiles/.bashrc"
 alias pt="ping google.com"
 alias ll="ls -l"
-alias cpd="pwd | tr -d \"\n\" | pbcopy"
 
 # load other rc files
 [[ -f ~/.dotfiles/.all_securerc ]] && source ~/.dotfiles/.all_securerc
@@ -62,6 +62,7 @@ alias w_steam='cd ~/Documents/wasting_time/games/windows & wine start SteamSetup
 alias tf="terraform"
 
 # Alias Project Directories
+alias wc="code; cd carlsonwagonlit"
 alias cdsocialgood="cdgo; cd go-burst"
 alias cdds="code; cd data_science/kaggle/russian_future_sales"
 alias cdgoproject="cd $GOPATH; cd src/github.com/ipfs/"

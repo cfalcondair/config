@@ -28,11 +28,10 @@ export PATH="$PATH:$HOME/.rvm/bin"
 export TIME_TO_ALERT=10
 long_running_query()
 {
-  if [ $(fc -lLD 1 | tail -n 1 | cut -d" " -f3 | awk -F: '{ print ($1 * 60) + $2 }') -gt $TIME_TO_ALERT ]
+  if [ $(fc -lLD 1 | tail -n 1 | cut -d" " -f5 | awk -F: '{ print ($1 * 60) + $2 }') -gt $TIME_TO_ALERT ]
   then
     say -v "Yuri" "hey, I'm done."
-    echo "time taken was $(fc -lLD 1 | tail -n 1 | cut -d" " -f3 | awk -F: '{ print ($1 * 60) + $2 }') seconds."
+    echo "time taken was $(fc -lLD 1 | tail -n 1 | cut -d" " -f5 | awk -F: '{ print ($1 * 60) + $2 }') seconds."
   fi
 }
 precmd() { long_running_query }
-
