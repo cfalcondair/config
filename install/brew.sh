@@ -16,6 +16,7 @@ formulas=(
     git
     gnupg
     go
+    mas
     neovim
     ripgrep
     the_silver_searcher
@@ -26,6 +27,22 @@ formulas=(
     zsh
 )
 
+cask_formulas=(
+    atom
+    firefox
+    flux
+    google-chrome
+    intellij-idea-ce
+    iterm2
+    private-internet-access
+    slack
+    spotifree
+    spotify
+    telegram
+    whatsapp
+)
+
+
 for formula in ${formulas[@]}; do
     if brew list $formula > /dev/null 2>&1; then
         echo "$formula already installed... skipping..."
@@ -33,6 +50,18 @@ for formula in ${formulas[@]}; do
         brew install $formula
     fi
 done
+
+for formula in ${cask_formulas[@]}; do
+    if brew cask list $formula > /dev/null 2>&1; then
+        echo "$formula already installed... skipping..."
+    else
+        brew cask install $formula
+    fi
+done
+
+# Change permissions on iterm app
+echo "Allowing the iterm app to be opened"
+spctl --add /Applications/iTerm.app/
 
 # Change the default shell to zsh
 zsh_path="$( command -v zsh )"
