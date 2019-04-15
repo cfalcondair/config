@@ -16,5 +16,8 @@ mas: ## Install all Mac App Store
 osx: ## Configure all osx settings
 	bash install/osx.sh
 
+link: ## Setup the symlink
+	bash install/link.sh
+
 install:
-	make brew atom git mas osx
+	make brew atom git mas link osx
