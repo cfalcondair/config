@@ -4,6 +4,9 @@ init_iterm: ## Set defaults for iterm
 brew: ## Install all brew packages
 	bash install/brew.sh
 
+atom: ## Install all atom packages
+	bash install/atom.sh
+
 git: ## Setup git
 	bash install/git.sh
 
@@ -14,5 +17,4 @@ osx: ## Configure all osx settings
 	bash install/osx.sh
 
 install:
-	make brew git mas osx 
-					
+	make brew atom git mas osx
