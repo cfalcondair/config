@@ -1,5 +1,5 @@
 # git aliases
-alias gs='git s'
+alias gs='git status'
 alias glog="git l"
 
 function g() {
