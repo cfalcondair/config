@@ -18,6 +18,8 @@ formulas=(
     go
     mas
     neovim
+    # Used so mac clipboard is accessable in tmux
+    reattach-to-user-namespace
     ripgrep
     the_silver_searcher
     tree
