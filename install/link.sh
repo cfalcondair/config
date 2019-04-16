@@ -4,14 +4,16 @@ set -euo pipefail
 
 echo "Installing symlinks"
 
-for i in .*.symlink; do
-    filename=$(basename $i .symlink)
-    source=$(pwd)/$filename
-    target=~/$filename
-    if [ -L $target ] || [ -e $target ]; then
-      echo "$target already exists"
+DOTFILES=$HOME/.dotfiles
+
+linkables=$( find -H "$DOTFILES" -maxdepth 3 -name '*.symlink' )
+for file in $linkables ; do
+    target="$HOME/.$( basename "$file" '.symlink' )"
+    if [ -e "$target" ] || [ -L "$target" ]; then
+        echo "~${target#$HOME} already exists... Skipping."
     else
-      echo "Linking $source to $target"
-      ln -s $source $target
+        echo "Creating symlink for $file to $target"
+        rm 
+        ln -s "$file" "$target"
     fi
 done

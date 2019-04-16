@@ -1,4 +1,0 @@
-# load all secure rc files
-[[ -f ~/.dotfiles/.secure_autorc ]] && source ~/.dotfiles/.secure_autorc
-[[ -f ~/.dotfiles/.secure_data_sciencerc ]] && source ~/.dotfiles/.secure_data_sciencerc
-[[ -f ~/.dotfiles/.secure_sshrc ]] && source ~/.dotfiles/.secure_sshrc
