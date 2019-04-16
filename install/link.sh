@@ -13,7 +13,6 @@ for file in $linkables ; do
         echo "~${target#$HOME} already exists... Skipping."
     else
         echo "Creating symlink for $file to $target"
-        rm 
         ln -s "$file" "$target"
     fi
 done
