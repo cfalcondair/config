@@ -1,0 +1,19 @@
+source ~/.bashrc
+
+plugins=(git ruby)
+
+source $ZSH/oh-my-zsh.sh
+
+# source all .zsh files inside of the zsh/ directory
+source "~/.dotfiles/zsh/aliases.zsh"
+source "~/.dotfiles/zsh/env.zsh"
+source "~/.dotfiles/zsh/functions.zsh"
+source "~/.dotfiles/zsh/git.zsh"
+source "~/.dotfiles/zsh/linux.zsh"
+source "~/.dotfiles/zsh/ruby.zsh"
+source "~/.dotfiles/zsh/tmux.zsh"
+source "~/.dotfiles/zsh/z.zsh"
+
+if [[ -a ~/.localrc ]]; then
+    source ~/.localrc
+fi
