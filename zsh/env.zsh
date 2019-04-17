@@ -30,4 +30,4 @@ export CURRENT_PYTHON_VERSION="3.6.1"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="random"
-#Standouts =(amuse tjkirch_mod sonicradish terminalparty miloshadzic fishy jbergantine kolo adben)
+#Standouts =(amuse tjkirch_mod sonicradish terminalparty miloshadzic fishy jbergantine kolo adben garyblessington robbyrussell)
