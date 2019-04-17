@@ -22,9 +22,9 @@ formulas=(
     reattach-to-user-namespace
     ripgrep
     the_silver_searcher
+    tmux
     tree
     wget
-    vim
     z
     zsh
 )
