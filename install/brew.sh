@@ -61,6 +61,10 @@ for formula in ${cask_formulas[@]}; do
     fi
 done
 
+# Install vundle as Vim package manager
+mkdir ~/.vim/bundle
+git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+
 # Change permissions on iterm app
 echo "Allowing the iterm app to be opened"
 spctl --add /Applications/iTerm.app/
