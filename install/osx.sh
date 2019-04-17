@@ -211,3 +211,7 @@ defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool
 echo "Kill affected applications"
 for app in Safari Finder Dock Mail SystemUIServer; do killall "$app" >/dev/null 2>&1; done
 
+
+# TODO: Somehow need to set Caps lock to Control
+# here https://github.com/geerlingguy/mac-dev-playbook/issues/22 or
+# https://apple.stackexchange.com/questions/13598/updating-modifier-key-mappings-through-defaults-command-tool/88096#88096
