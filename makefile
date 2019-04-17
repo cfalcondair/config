@@ -19,5 +19,5 @@ osx: ## Configure all osx settings
 link: ## Setup the symlink
 	bash install/link.sh
 
-install:
+full_install:
 	make brew atom git mas link osx
