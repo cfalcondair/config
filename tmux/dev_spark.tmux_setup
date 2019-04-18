@@ -1,0 +1,6 @@
+new-session -A -n vim -s "new playground" vim
+split-window -p 20 -v 
+split-window -h
+select-pane -U
+# Connect to cluster and run spark shell
+new-window -n "cwt cluster" "ssh cwt \"spark2-shell    --conf spark.dynamicAllocation.maxExecutors=2\""
