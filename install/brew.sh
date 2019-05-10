@@ -13,6 +13,7 @@ echo "=============================="
 formulas=(
     curl
     diff-so-fancy
+    entr
     git
     gnupg
     go
