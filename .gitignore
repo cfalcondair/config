@@ -1,1 +1,4 @@
+# vim artefacts
+**/*.swp
+
 .secure*rc
