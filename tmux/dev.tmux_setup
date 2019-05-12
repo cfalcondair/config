@@ -1,0 +1,5 @@
+new-session -A -n vim -s "dev" vim
+split-window -p 20 -v 
+split-window -h
+select-pane -U
+
