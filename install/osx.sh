@@ -215,3 +215,9 @@ for app in Safari Finder Dock Mail SystemUIServer; do killall "$app" >/dev/null 
 # TODO: Somehow need to set Caps lock to Control
 # here https://github.com/geerlingguy/mac-dev-playbook/issues/22 or
 # https://apple.stackexchange.com/questions/13598/updating-modifier-key-mappings-through-defaults-command-tool/88096#88096
+
+# Specify the preferences directory
+defaults write com.googlecode.iterm2.plist PrefsCustomFolder -string "~/dotfiles/iterm2"
+# Tell iTerm2 to use the custom preferences in the directory
+defaults write com.googlecode.iterm2.plist LoadPrefsFromCustomFolder -bool true
+
