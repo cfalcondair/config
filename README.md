@@ -6,11 +6,11 @@
 - Select Modifier Keys
 - Change Caps Lock to Control
 
-#### Ensure that "Move focus to menu bar" to opt-t command
+#### Define macro for "Move focus to menu bar"
 - Go to the keyboard settings
 - Go to the Shortcuts tab
 - Select keyboard
-- Change the "Move focus to the menu bar" to `opt-t`
+- Change the "Move focus to the menu bar" to `ctrl-w`
 
 Need to login to firefox profile
 Need to login to chrome profile
