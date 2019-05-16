@@ -12,5 +12,9 @@
 - Select keyboard
 - Change the "Move focus to the menu bar" to `ctrl-w`
 
+#### Set background images
+- Install setup
+- Select change desktop background and select a favourite from deviant
+
 Need to login to firefox profile
 Need to login to chrome profile
