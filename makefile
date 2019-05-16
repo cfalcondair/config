@@ -28,5 +28,11 @@ firefox: ## Setup the firefox settings
 dirs: ## Setup the directories for development
 	bash install/dirs.sh
 
+python_packages: ## Setup the initial python packages
+	bash install/python_packages.sh
+
+get_images: ## Download all images
+	bash python_scripts/get_deviant_images.sh
+
 full_install:
-	make brew go atom git mas link osx firefox dirs
+	make brew go atom git mas link osx firefox dirs python_packages get_images

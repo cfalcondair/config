@@ -1,4 +1,11 @@
 # vim artefacts
 **/*.swp
 
+# python
+**/bin
+**/lib
+**/include
+**/share
+**/pyvenv.cfg
+
 .secure*rc
