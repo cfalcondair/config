@@ -12,6 +12,7 @@ echo "=============================="
 
 formulas=(
     curl
+    defaultbrowser
     diff-so-fancy
     entr
     git

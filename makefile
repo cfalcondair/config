@@ -22,5 +22,8 @@ go: ## Install all go packages
 link: ## Setup the symlink
 	bash install/link.sh
 
+firefox: ## Setup the firefox settings
+	bash install/firefox.sh
+
 full_install:
-	make brew go atom git mas link osx
+	make brew go atom git mas link osx firefox
