@@ -25,5 +25,8 @@ link: ## Setup the symlink
 firefox: ## Setup the firefox settings
 	bash install/firefox.sh
 
+dirs: ## Setup the directories for development
+	bash install/dirs.sh
+
 full_install:
-	make brew go atom git mas link osx firefox
+	make brew go atom git mas link osx firefox dirs
