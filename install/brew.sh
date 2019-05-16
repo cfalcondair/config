@@ -20,6 +20,7 @@ formulas=(
     go
     mas
     neovim
+    python3
     # Used so mac clipboard is accessable in tmux
     reattach-to-user-namespace
     ripgrep
