@@ -11,6 +11,7 @@ echo -e "\\n\\nInstalling homebrew packages..."
 echo "=============================="
 
 formulas=(
+    awscli
     curl
     defaultbrowser
     diff-so-fancy
@@ -34,6 +35,7 @@ formulas=(
 
 cask_formulas=(
     atom
+    aws-vault
     firefox
     flux
     google-chrome
