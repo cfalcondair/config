@@ -36,6 +36,7 @@ formulas=(
 cask_formulas=(
     atom
     aws-vault
+    dash
     firefox
     flux
     google-chrome
