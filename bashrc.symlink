@@ -39,6 +39,7 @@ alias ll="ls -l"
 
 # load other rc files
 [[ -f ~/.dotfiles/.all_securerc ]] && source ~/.dotfiles/.all_securerc
+[[ -f ~/.profile ]] && source ~/.profile
 [[ -f ~/.all_securerc ]] && source ~/.all_securerc
 
 # Networking
